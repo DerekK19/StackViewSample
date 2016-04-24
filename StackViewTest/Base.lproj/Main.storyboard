@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="StackViewTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="WcP-Ds-65O">
+                                <rect key="frame" x="35" y="85" width="344" height="135"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="firstBaseline" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="K4c-V5-xUC">
+                                        <rect key="frame" x="0.0" y="0.0" width="344" height="41"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="750" text="Top Value" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="96y-Lg-kQo">
+                                                <rect key="frame" x="0.0" y="0.0" width="76" height="21"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="1000" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DdA-Y6-3IF">
+                                                <rect key="frame" x="86" y="0.0" width="258" height="41"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="firstBaseline" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="PSL-G2-KNu">
+                                        <rect key="frame" x="0.0" y="47" width="344" height="41"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" text="Middle Value" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Opo-wy-ldB">
+                                                <rect key="frame" x="0.0" y="0.0" width="98" height="21"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="1000" text="Excepteur sint occaecat cupidatat non proident" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="37o-G0-Bsb">
+                                                <rect key="frame" x="108" y="0.0" width="236" height="41"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="firstBaseline" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="Oh6-o1-eld">
+                                        <rect key="frame" x="0.0" y="94" width="344" height="41"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="750" text="Bottom Value" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zhf-JU-99A">
+                                                <rect key="frame" x="0.0" y="0.0" width="103" height="21"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="1000" text="Sed ut perspiciatis unde omnis iste natus error" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ddh-cQ-5Xv">
+                                                <rect key="frame" x="118" y="0.0" width="226" height="41"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="firstBaseline" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="6af-Nv-u8f">
+                                <rect key="frame" x="35" y="240" width="344" height="60"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" text="Second Value" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4hS-Fn-o85">
+                                        <rect key="frame" x="0.0" y="0.0" width="105" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="1000" text="Duis aute irure dolor in reprehenderit in voluptate velit" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="euQ-Rl-rls">
+                                        <rect key="frame" x="125" y="-1" width="219" height="61"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7r2-Pg-dHb">
+                                <rect key="frame" x="186" y="317" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qTp-aV-JUj">
+                                <rect key="frame" x="170" y="346" width="75" height="30"/>
+                                <state key="normal" title="Hide/Show"/>
+                                <connections>
+                                    <action selector="willHideShowMiddleStackView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CVs-xU-qIR"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="WcP-Ds-65O" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="15" id="2ep-Qf-0Vc"/>
+                            <constraint firstItem="WcP-Ds-65O" firstAttribute="leading" secondItem="6af-Nv-u8f" secondAttribute="leading" id="Kt4-ra-tpC"/>
+                            <constraint firstItem="6af-Nv-u8f" firstAttribute="top" secondItem="WcP-Ds-65O" secondAttribute="bottom" constant="20" id="L24-vf-lqB"/>
+                            <constraint firstItem="WcP-Ds-65O" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="65" id="PEz-fe-mJS"/>
+                            <constraint firstItem="WcP-Ds-65O" firstAttribute="trailing" secondItem="6af-Nv-u8f" secondAttribute="trailing" id="QQc-nr-jD1"/>
+                            <constraint firstItem="qTp-aV-JUj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="T2G-Wv-3yc"/>
+                            <constraint firstItem="7r2-Pg-dHb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TtE-cm-bEf"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="WcP-Ds-65O" secondAttribute="trailing" constant="15" id="b4x-iS-T8Q"/>
+                            <constraint firstItem="7r2-Pg-dHb" firstAttribute="top" secondItem="6af-Nv-u8f" secondAttribute="bottom" constant="17" id="b9G-6w-teC"/>
+                            <constraint firstItem="qTp-aV-JUj" firstAttribute="top" secondItem="7r2-Pg-dHb" secondAttribute="bottom" constant="8" id="bkv-0f-lew"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="bottomLeftLabel" destination="Zhf-JU-99A" id="36j-4p-adD"/>
+                        <outlet property="bottomRightLabel" destination="ddh-cQ-5Xv" id="NCY-48-8DR"/>
+                        <outlet property="bottomStackView" destination="Oh6-o1-eld" id="nAM-sb-b2h"/>
+                        <outlet property="firstStackView" destination="WcP-Ds-65O" id="Pw6-rd-sSg"/>
+                        <outlet property="middleLeftLabel" destination="Opo-wy-ldB" id="GnM-kl-Xvc"/>
+                        <outlet property="middleRightLabel" destination="37o-G0-Bsb" id="Oz0-eA-XQ2"/>
+                        <outlet property="middleStackView" destination="PSL-G2-KNu" id="pkp-A2-3Qa"/>
+                        <outlet property="pageLabel" destination="7r2-Pg-dHb" id="6gh-4K-uS9"/>
+                        <outlet property="secondLeftLabel" destination="4hS-Fn-o85" id="uhc-gE-RWS"/>
+                        <outlet property="secondRightLabel" destination="euQ-Rl-rls" id="T40-Fz-M6c"/>
+                        <outlet property="secondStackView" destination="6af-Nv-u8f" id="QbX-gm-Bog"/>
+                        <outlet property="topLeftLabel" destination="96y-Lg-kQo" id="juK-IH-3fs"/>
+                        <outlet property="topRightLabel" destination="DdA-Y6-3IF" id="hS9-Zy-5Pi"/>
+                        <outlet property="topStackView" destination="K4c-V5-xUC" id="lT8-6p-f5G"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="240" y="429"/>
+        </scene>
+    </scenes>
+</document>
